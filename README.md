@@ -1,5 +1,8 @@
 # swbc-7dof
-To run this program, download the SWBC library in http://stanford-wbc.sourceforge.net/doxy/tutorials-page.html.
+To run this program, download the SWBC library in http://stanford-wbc.sourceforge.net/doxy/tutorials-page.html. Moreover, the dependecies must be download and then build the SWBC properly.
+
+After this, copy the four files: Control_code.cpp, tutsim1.cpp, tutsim1.hpp, tutrob1.xml and CMakelist.txt.
+
 
 Details on SWBC: Stanford whole-body control contains library for whole body control of multi-link robot manipulator. Tutorial C++ program are provided for both joint-space and task-space controller.
 
@@ -14,3 +17,5 @@ Mode 3: ISMC with disturbance
 Mode 4: Proposed Control: ISMC + DOB with disturbance
 
 Modes can switched by clicking the togglt button on the GUI. 
+
+
